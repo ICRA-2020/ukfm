@@ -45,6 +45,24 @@ Getting Started
    the documentation).
 2. Follow  the 2D robot localization for an introduction to the methodology. 
 
+#### With [rocker](https://github.com/osrf/rocker):
+```
+rocker --x11 ghcr.io/icra-2020/ukfm:master
+```
+
+Run the examples with:
+```
+rocker --x11 ghcr.io/icra-2020/ukfm:master python3 examples/<script>
+```
+
+Replace `<script>` with:
+* `attitude.py`
+* `imugnss.py`
+* `inertial_navigation.py`
+* `localization.py`
+* `pendulum.py`
+* `slam2d.py`
+* `wifibot.py`
 
 Examples
 --------------------------------------------------------------------------------
