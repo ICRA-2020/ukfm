@@ -20,4 +20,8 @@ RUN cd /ukfm/python \
 RUN cd /ukfm/python \
  && python3 -m pip install .
 
-CMD ["python3", "/ukfm/python/demo.py"]
+WORKDIR /ukfm/python
+
+ENV PYTHONPATH=/ukfm/python
+
+CMD ["python3", "demo.py"]
