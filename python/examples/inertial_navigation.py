@@ -148,6 +148,8 @@ for n in range(1, model.N):
 
 model.plot_results(ukf_states, ukf_Ps, states)
 
+matplotlib.pyplot.show()
+
 ################################################################################
 # It seems that the proposed UKF meets difficulties and takes some time to
 # converge due to the challenging initial conditions. A major problem of the UKF

@@ -29,6 +29,5 @@ ys, one_hot_ys = model.simu_h(states, gps_freq, gps_std)
 
 model.plot_traj(states, ys)
 
-import matplotlib.pyplot as plt
-plt.show()
+matplotlib.pyplot.show()
 

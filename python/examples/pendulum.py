@@ -138,6 +138,8 @@ for n in range(1, model.N):
 
 model.plot_results(ukf_states, ukf_Ps, states)
 
+matplotlib.pyplot.show()
+
 ################################################################################
 # On the first plot, we observe that even if the state is unaccurately
 # initialized, the filter estimates the depth position (:math:`x` axis) of the

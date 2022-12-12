@@ -147,6 +147,8 @@ for n in range(1, N):
 
 MODEL.plot_wifibot(ukf_states, ukf_Ps, states, ys, t)
 
+matplotlib.pyplot.show()
+
 ################################################################################
 # All results are coherent. This is convincing as the initial heading error is
 # relatively high.

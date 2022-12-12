@@ -330,6 +330,8 @@ for n in range(1, model.N):
 
 model.plot_results(ukf_states, ukf_Ps, states, ys)
 
+matplotlib.pyplot.show()
+
 ################################################################################
 # All results seem coherent. This is expected as the initial heading error is
 # small.

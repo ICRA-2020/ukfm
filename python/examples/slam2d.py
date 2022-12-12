@@ -270,6 +270,8 @@ for n in range(1, model.N):
 
 model.plot_results(ukf_states, ukf_Ps, states, ldks)
 
+matplotlib.pyplot.show()
+
 ################################################################################
 # We note the :math:`3\sigma` confidence interval decreases along time.
 

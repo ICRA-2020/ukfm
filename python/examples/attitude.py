@@ -124,6 +124,8 @@ for n in range(1, model.N):
 
 model.plot_results(ukf_states, ukf_Ps, states, omegas)
 
+matplotlib.pyplot.show()
+
 ################################################################################
 # The trajectory starts by a small stationary step following by constantly
 # turning around the gravity vector (only the yaw is increasing).

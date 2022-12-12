@@ -170,6 +170,8 @@ for n in range(1, N):
 # We plot the estimated trajectory.
 MODEL.plot_results(ukf_states, ys)
 
+matplotlib.pyplot.show()
+
 ################################################################################
 # Results are coherent with the GNSS. As the GNSS is used in the filter, it
 # makes no sense to compare the filter outputs to the same measurement.
